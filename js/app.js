@@ -57,7 +57,7 @@ function sortingString(value, type) {
 }
 
 title.addEventListener("change", (e) => {
-  sortingString(e.target.value, "title");
+  sortingString(e.target.value, "brand");
 });
 
 price.addEventListener("change", (e) => {
