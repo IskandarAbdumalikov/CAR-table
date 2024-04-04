@@ -100,9 +100,7 @@ form.addEventListener("submit", (e) => {
     color: carColor.value, // select
     hp: carHp.value, // number
   };
-  carBrand = "";
-  carPrice = "";
-  carHp = "";
+  
   CARS.push(newCar);
   createTableData(CARS);
 });
