@@ -108,6 +108,36 @@ input:focus {
   border-radius: 5px;
 }
 
+.black{
+  background: black;
+  color: $secondaryColor;
+}
+
+.white{
+  background: white;
+  color: $primaryColor;
+}
+
+.blue{
+  background: blue;
+  color: $secondaryColor;
+}
+
+.green{
+  background: green;
+  color: $secondaryColor;
+}
+
+.yellow{
+  background: yellow;
+  color: $primaryColor;
+}
+
+.red{
+  background: red;
+  color: $secondaryColor;
+}
+
 @media (max-width: 560px) {
   .car__form {
     grid-template-columns: 1fr;
