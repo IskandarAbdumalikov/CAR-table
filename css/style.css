@@ -196,7 +196,7 @@ body {
   position: absolute;
   width: 0;
   height: 2px;
-  background-color: black;
+  background-color: white;
   bottom: 0;
   left: 50%;
   border-radius: 0 1px 1px 0;
@@ -208,7 +208,7 @@ body {
   position: absolute;
   width: 0;
   height: 2px;
-  background-color: black;
+  background-color: white;
   bottom: 0;
   right: 50%;
   border-radius: 1px 0 0 1px;
@@ -216,13 +216,13 @@ body {
 }
 
 .header__nav__right__list__item:hover {
-  color: #0B7572;
+  color: white;
 }
 
 .header__nav__right__list__item:hover::after,
 .header__nav__right__list__item:hover::before {
   width: 50%;
-  background: #0B7572;
+  background: white;
 }
 
 .header__nav__right__list__close {
